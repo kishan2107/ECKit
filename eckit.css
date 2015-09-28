@@ -1,0 +1,178 @@
+/* ECKit.css CSS Framework by ECWebServices */
+/*    Font     */
+@font-face{
+    font-family: 'ECPiano';
+    src: url('font/UsualType.ttf'),
+    url('font/UsualType.ttf'); /* IE */
+}
+/* Reset.css by ECWebServices*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ECKit START */
+body{
+background-color:darkgrey;
+font-family:'ECPiano',sans-serif;
+color:white;
+}
+/* Header */
+.header{
+background-color:#8b6f67;
+padding-top:1px;
+padding-bottom:5px;
+border-bottom:solid;
+border-bottom-width:1px;
+border-bottom-color:#ffffff;
+font-size:3.3em;
+clear:both;
+font-family:monospace;
+margin-bottom:5px;
+}
+.header a{
+text-decoration:none;
+color:white;
+}
+/* Site Title */
+.sitetitle{
+color:white;
+padding-left:5px;
+padding-right:20px;
+float:left;
+clear:left;
+}
+/* Page Name */
+.pagename{
+font-weight:bold;
+font-size:2.5em;
+margin-left:2px;
+margin-bottom:4px;
+border:solid;
+border-width:1px;
+border-color:8b6f67;
+}
+/* Navagation */
+.header .nav{
+clear:right;
+}
+.header .nav ul{
+text-align:center;
+list-style-type: none;
+}
+.header .nav ul li{
+display:inline;
+text-align:center;
+}
+/* Content */
+.content{
+margin:15px;
+}
+.content h1{
+font-size:2.4em;
+}
+.content h2{
+font-size:2em;
+}
+.content p{
+font-size:1.6em;
+padding:10px;
+}
+.content a{
+color:white;
+}
+/*Jumbotron*/
+.jumbotron{
+background-image:url(img/phone-in-hand.jpg);
+border-radius:10px;
+padding: 10px 25px;
+margin-bottom:10px;
+}
+.jumbotron h1{
+font-size:2.3em;
+padding-bottom:5px;
+}
+.jumbotron p{
+font-size:1.3em;
+}
+/*Footer*/
+.footer{
+background-color:#8b6f67;
+padding:5px;
+text-align:center;
+border-top:solid;
+border-top-width:1px;
+border-top-color:#ffffff;
+font-size:1.5em;
+clear:both;
+font-family:monospace;
+margin-top:10px;
+}
+/* Supportings */
+
+.support{
+text-align:center;
+float:left;
+border:solid;
+border-width:1px;
+border-color:white;
+margin:2px;
+padding:5px;
+width:100%;
+}
+.support h2{
+font-size:3em;
+}
+.support p{
+font-size:1.3em;
+}
+/*Icon*/
+.fa{
+background-color:#555555;
+border-radius:25%;
+width:1.1em;
+height:1.1em;
+margin:1px;
+padding:1px;
+position: relative;
+top:5px;
+}
