@@ -17,7 +17,7 @@
 
 
 /*	MAIN CONTAINER 
-	Set the width to whatever you want the width of your site to be. */
+	Set the width to whatever you want the width of your site to be. Note width does not actually have to be set. */
 .container { 
 	max-width:  800px;
 	margin: 0 auto; 
