@@ -49,10 +49,13 @@ article, aside{
 	min-height: 50px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-left:5px;
 }
 
 footer{
 	min-height: 25px;
 	text-align: right;
+	padding-top:3px;
 	padding-right: 5px;
+	padding-bottom:5px;
 }
