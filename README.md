@@ -18,3 +18,7 @@ Here's some VERY notable things about ECKit:
 
 ##Other
 If you have any questions head to [SourceForge] (http://eckit-framework.sourceforge.net) and head to our forums.
+
+
+##Note
+ECKit will be starting to use either LESS for making ECKit.
