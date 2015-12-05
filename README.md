@@ -21,4 +21,4 @@ If you have any questions head to [SourceForge] (http://eckit-framework.sourcefo
 
 
 ##Note
-ECKit will be starting to use either LESS for making ECKit.
+The ECKit team is now using LESS for building ECKit! This is a big advantage as now ECKit will be rolling out with updates faster
