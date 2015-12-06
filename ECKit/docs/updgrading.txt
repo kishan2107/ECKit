@@ -1,0 +1,9 @@
+Upgrading from below 2.0
+-
+
+The Versions of ECKit below the change of 2.0 are NOT compatible with the code of ECKit now, BUT some parts that were in use below ECKit 2.0 and still work the same.
+
+Most of those part are in the source code as settings.less and colors.less. These files will be available on GitHub soon.
+
+Colors.css (The Colors) will be available on GitHub soon. But as for the settings.less, there is no known date for this yet.
+  
