@@ -1,0 +1,17 @@
+Other
+----------------------
+
+Other than what is included in the other Docs, Here's the rest of what you may need to know:
+
+Font:
+    The font is set to these defaults:
+      In this order:
+      Helvetica Neue, Helvetica, Liberation Sans, Arial, sans-serif
+      
+    For the font classes to work, you must remove these lines:
+    
+    body{
+      font-family:"Helvetica Neue, Helvetica, Liberation Sans, Arial, sans-serif";
+    }
+    
+    These lines are in settings.less in the source or starting on line 474 is style.css
