@@ -6,9 +6,7 @@ ECKit is named after Elijah Cruz, CEO of ECWebServices. He works the most on ECK
 
 New In This Version of ECKit:
 
-1. Hot Pink Color
-2. Fixed some things in settings.css
-3. Example Style Makes Sense.
+1. Added addons.less to give option of adding more features into the code itself.
 
 Using ECKit:
 
