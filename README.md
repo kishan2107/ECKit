@@ -16,8 +16,13 @@ Here's some VERY notable things about ECKit:
 4. ECKit uses other projects of ECWS that are still not on GitHub or SourceForge, but expect them soon.
 
 ##Other
-If you have any questions head to [SourceForge] (http://eckit-framework.sourceforge.net) and head to our forums.
+If you have any questions head to [GitHub] (https://github.com/ecwebservices/ECKit) and head to our issues.
 
+##Contributing
+If you would like to contribute, send us a pull request on GitHub only. Bitbucket and Sourceforge are NOT accepted as we do not look at those currently.
+We do not look at these as we do all our collaborating on GitHub.
+
+Also we are going to turn the docs into a wiki if you would like to help create that as well.
 
 ##Note
 The ECKit team is now using LESS for building ECKit! This is a big advantage as now ECKit will be rolling out with updates faster
