@@ -2,7 +2,7 @@
 ECKit is a CSS framework developed by ECWS, a web development company.
 
 ##Download
-You can download it at [SourceForge] (http://eckit-framework.sourceforge.net) or here.
+You can download it at [SourceForge] (http://eckit-framework.sourceforge.net), BitBucket, or GitHub.
 
 ##Installation
 To use ECKit, all you have to do is link it to your HTML5 Pages. 
@@ -25,4 +25,4 @@ We do not look at these as we do all our collaborating on GitHub.
 Also we are going to turn the docs into a wiki if you would like to help create that as well.
 
 ##Note
-The ECKit team is now using LESS for building ECKit! This is a big advantage as now ECKit will be rolling out with updates faster.
+The ECKit team is currently using LESS for building ECKit. We will be upgrading to Sass instead.

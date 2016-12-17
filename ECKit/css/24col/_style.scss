@@ -12,20 +12,25 @@
 *   easy to use.
 */
 
-/*  Your ECKit version is the 16 column version.
+/*  Your ECKit version is the 12 column version.
 *   to another version. Now building using less.
 */
 
-/* IMPORT RESET */
+@import url("variables.less");
+
+/* RESET */
 @import url("reset.less");
 
-/* IMPORT 16 COLUMN ECKit */
-@import url("eckit.16col.less");
+/*12 COLUMN ECKit */
+@import url("eckit.12col.less");
 
-/* IMPORT COLORS */
+/*COLORS */
 @import url("colors.less");
 
-/* IMPORT SPECIALTY SETTINGS */
+/*Special and Optionals*/
+/*@import url(addons.less*/)
+
+/*SPECIALTY SETTINGS */
 @import url("settings.less");
 
 /* Example CSS */

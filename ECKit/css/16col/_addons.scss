@@ -1,0 +1,29 @@
+/* ECKit addon.less
+
+This file is currently not in the latest version of ECKit. All features here are in BETA.
+
+*/
+
+/*Borders with the colors in colors.less*/
+
+/*Full Borders*/
+.border-amber{
+  border:solid;
+  border-width:1px;
+  border-color:color:#ffc107;
+}
+.border-aqua{
+  border:solid;
+  border-width:1px;
+  border-color:color:#00ffff;
+}
+.border-blue{
+  border:solid;
+  border-width:1px;
+  border-color:color:#2196F3;
+}
+.border-light-blue{
+  border:solid;
+  border-width:1px;
+  border-color:color:#87CEEB;
+}
