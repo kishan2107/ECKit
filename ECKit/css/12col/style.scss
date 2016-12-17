@@ -16,22 +16,22 @@
 *   to another version. Now building using less.
 */
 
-@import url("variables.less");
+@import 'variables';
 
 /* RESET */
-@import url("reset.less");
+@import 'reset';
 
 /*12 COLUMN ECKit */
-@import url("eckit.12col.less");
+@import 'eckit12col';
 
 /*COLORS */
-@import url("colors.less");
+@import 'colors';
 
 /*Special and Optionals*/
-/*@import url(addons.less*/)
+/*@import url(addons*/
 
 /*SPECIALTY SETTINGS */
-@import url("settings.less");
+@import 'settings';
 
 /* Example CSS */
 

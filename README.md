@@ -26,3 +26,5 @@ Also we are going to turn the docs into a wiki if you would like to help create 
 
 ##Note
 The ECKit team is currently using LESS for building ECKit. We will be upgrading to Sass instead.
+
+When is comes to development, we currently work using the 12col then go to the 16 and 24.

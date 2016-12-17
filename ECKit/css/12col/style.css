@@ -1,0 +1,672 @@
+/* ECKit Version 2.1.0
+*  @name:ECKit
+*  @author:ECWebServices
+*  @version:2.1.0
+*/
+/* Reset.css by ECWebServices.
+*  Use is under MIT License.
+*/
+/*  Hello, ECKit is a framework that mainly specializes
+*   in styling as well as a major grid system. It is very
+*   easy to use.
+*/
+/*  Your ECKit version is the 12 column version.
+*   to another version. Now building using less.
+*/
+/* RESET */
+/* Reset.css by ECWebServices.
+*  Use is under MIT License.
+*/
+/* RESET
+----------------------------------------------------------------------------------------------------*/
+a, abbr, acronym, address, applet, article, aside, audio,
+b, big, blockquote, body, caption, canvas, center, cite, code,
+dd, del, details, dfn, dialog, div, dl, dt, em, embed,
+fieldset, figcaption, figure, form, footer,
+header, hgroup, h1, h2, h3, h4, h5, h6, html,
+i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav,
+object, ol, output, p, pre, q, ruby,
+s, samp, section, main, small, span, strike, strong, sub, summary, sup,
+tt, table, tbody, textarea, tfoot, thead, time, tr, th, td,
+u, ul, var, video {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  white-space: normal;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section, main {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*12 COLUMN ECKit */
+/*	12 COLUMN : ECKit Grid
+	DEVELOPER : ECWebServices
+	VERSION : 3.0
+	LICENSE : GPL & MIT */
+/* 	SET ALL ELEMENTS TO BOX-SIZING : BORDER-BOX */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  behavior: url(/scripts/boxsizing.htc);
+  /*	If you need support for IE7 and lower make 
+  	sure the boxsizing.htc file is linked properly.
+  	More info here:  https://github.com/Schepp/box-sizing-polyfill */ }
+
+/*	MAIN CONTAINER 
+	Set the width to whatever you want the width of your site to be. Note width does not actually have to be set. */
+.container {
+  max-width: 800px;
+  margin: 0 auto; }
+
+/*	SELF CLEARING FLOATS - CLEARFIX METHOD */
+.container:after,
+.row:after,
+.col:after,
+.clr:after,
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* 	DEFAULT ROW STYLES 
+	Set bottom padding according to preference */
+.row {
+  padding-bottom: 0em; }
+
+/* DEFAULT COLUMN STYLES */
+.col {
+  display: block;
+  float: left;
+  width: 100%; }
+
+@media (min-width: 768px) {
+  .gutters .col {
+    margin-left: 2%; }
+
+  .gutters .col:first-child {
+    margin-left: 0; } }
+/*	COLUMN WIDTH ON DISPLAYS +768px 
+	You might need to play with media queries here to suite your design. */
+@media (min-width: 768px) {
+  .span_1 {
+    width: 8.33333333333%; }
+
+  .span_2 {
+    width: 16.6666666667%; }
+
+  .span_3 {
+    width: 25%; }
+
+  .span_4 {
+    width: 33.3333333333%; }
+
+  .span_5 {
+    width: 41.6666666667%; }
+
+  .span_6 {
+    width: 50%; }
+
+  .span_7 {
+    width: 58.3333333333%; }
+
+  .span_8 {
+    width: 66.6666666667%; }
+
+  .span_9 {
+    width: 75%; }
+
+  .span_10 {
+    width: 83.3333333333%; }
+
+  .span_11 {
+    width: 91.6666666667%; }
+
+  .span_12 {
+    width: 100%; }
+
+  .gutters .span_1 {
+    width: 6.5%; }
+
+  .gutters .span_2 {
+    width: 15.0%; }
+
+  .gutters .span_3 {
+    width: 23.5%; }
+
+  .gutters .span_4 {
+    width: 32.0%; }
+
+  .gutters .span_5 {
+    width: 40.5%; }
+
+  .gutters .span_6 {
+    width: 49.0%; }
+
+  .gutters .span_7 {
+    width: 57.5%; }
+
+  .gutters .span_8 {
+    width: 66.0%; }
+
+  .gutters .span_9 {
+    width: 74.5%; }
+
+  .gutters .span_10 {
+    width: 83.0%; }
+
+  .gutters .span_11 {
+    width: 91.5%; }
+
+  .gutters .span_12 {
+    width: 100%; } }
+/*COLORS */
+/* COLORS */
+.text-amber {
+  color: #ffc107; }
+
+.amber {
+  color: #000;
+  background-color: #ffc107; }
+
+.text-aqua {
+  color: #00ffff; }
+
+.aqua {
+  color: #000;
+  background-color: #00ffff; }
+
+.text-blue {
+  color: #2196F3; }
+
+.blue {
+  color: #fff;
+  background-color: #2196F3; }
+
+.text-light-blue {
+  color: #87CEEB; }
+
+.light-blue {
+  color: #000;
+  background-color: #87CEEB; }
+
+.text-brown {
+  color: #795548; }
+
+.brown {
+  color: #fff;
+  background-color: #795548; }
+
+.text-cyan {
+  color: #00bcd4; }
+
+.cyan {
+  color: #000;
+  background-color: #00bcd4; }
+
+.text-blue-grey {
+  color: #607d8b; }
+
+.blue-grey {
+  color: #fff;
+  background-color: #607d8b; }
+
+.text-green {
+  color: #4CAF50; }
+
+.green {
+  color: #fff;
+  background-color: #4CAF50; }
+
+.text-light-green {
+  color: #8bc34a; }
+
+.light-green {
+  color: #000;
+  background-color: #8bc34a; }
+
+.text-indigo {
+  color: #3f51b5; }
+
+.indigo {
+  color: #fff;
+  background-color: #3f51b5; }
+
+.text-khaki {
+  color: #b4aa50; }
+
+.khaki {
+  color: #000;
+  background-color: #f0e68c; }
+
+.text-lime {
+  color: #cddc39; }
+
+.lime {
+  color: #000;
+  background-color: #cddc39; }
+
+.text-orange {
+  color: #ff9800; }
+
+.orange {
+  color: #000;
+  background-color: #ff9800; }
+
+.text-deep-orange {
+  color: #ff5722; }
+
+.deep-orange {
+  color: #fff;
+  background-color: #ff5722; }
+
+.text-pink {
+  color: #e91e63; }
+
+.pink {
+  color: #fff;
+  background-color: #e91e63; }
+
+.text-purple {
+  color: #9c27b0; }
+
+.purple {
+  color: #fff;
+  background-color: #9c27b0; }
+
+.text-deep-purple {
+  color: #673ab7;
+  color: #673ab7; }
+
+.deep-purple {
+  color: #fff;
+  background-color: #673ab7;
+  color: #fff;
+  background-color: #673ab7; }
+
+.text-red {
+  color: #f44336; }
+
+.red {
+  color: #fff;
+  background-color: #f44336; }
+
+.text-sand {
+  color: #fdf5e6; }
+
+.sand {
+  color: #000;
+  background-color: #fdf5e6; }
+
+.text-teal {
+  color: #009688; }
+
+.teal {
+  color: #fff;
+  background-color: #009688; }
+
+.text-yellow {
+  color: #d2be0e; }
+
+.yellow {
+  color: #000;
+  background-color: #ffeb3b; }
+
+.text-white {
+  color: #fff; }
+
+.white {
+  color: #000;
+  background-color: #fff; }
+
+.text-black {
+  color: #000; }
+
+.black {
+  color: #fff;
+  background-color: #000; }
+
+.text-grey {
+  color: #757575; }
+
+.grey {
+  color: #000;
+  background-color: #9e9e9e; }
+
+.text-light-grey {
+  color: #f1f1f1; }
+
+.light-grey {
+  color: #000;
+  background-color: #f1f1f1; }
+
+.text-dark-grey {
+  color: #3a3a3a; }
+
+.dark-grey {
+  color: white;
+  background-color: #616161; }
+
+.text-white-opacity {
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.65); }
+
+.text-black-opacity {
+  color: #000000;
+  color: rgba(0, 0, 0, 0.6); }
+
+.text-shadow {
+  text-shadow: 1px 1px 1px #444;
+  -moz-text-shadow: 1px 1px 1px #444;
+  letter-spacing: 2px; }
+
+/*Special and Optionals*/
+/*@import url(addons*/
+/*SPECIALTY SETTINGS */
+/*  ECKit's Special Settings for changing anything */
+@font-face {
+  font-family: Helvetica Neue;
+  src: url(../../fonts/HelveticaNeue.tff); }
+body {
+  font: Helvetica, sans-serif; }
+
+/*Font*/
+.monospace {
+  font-family: monospace; }
+
+.serif {
+  font-family: serif; }
+
+.sans-serif {
+  font-family: sans-serif; }
+
+.bold {
+  font-weight: 700; }
+
+/*Margin and Padding Changers*/
+/*Margin*/
+.margin-small {
+  margin: 5px; }
+
+.margin-medium {
+  margin: 10px; }
+
+.margin-large {
+  margin: 20px; }
+
+.margin-xl {
+  margin: 25px; }
+
+.margin-top-small {
+  margin-top: 5px; }
+
+.margin-top-medium {
+  margin-top: 10px; }
+
+.margin-top-large {
+  margin-top: 20px; }
+
+.margin-top-xl {
+  margin-top: 25px; }
+
+.margin-left-small {
+  margin-left: 5px; }
+
+.margin-left-medium {
+  margin-left: 10px; }
+
+.margin-left-large {
+  margin-left: 20px; }
+
+.margin-left-xl {
+  margin-left: 25px; }
+
+.margin-right-small {
+  margin-right: 5px; }
+
+.margin-right-medium {
+  margin-right: 10px; }
+
+.margin-right-large {
+  margin-right: 20px; }
+
+.margin-right-xl {
+  margin-right: 25px; }
+
+.margin-bottom-small {
+  margin-bottom: 5px; }
+
+.margin-bottom-medium {
+  margin-bottom: 10px; }
+
+.margin-bottom-large {
+  margin-bottom: 20px; }
+
+.margin-bottom-xl {
+  margin-bottom: 25px; }
+
+/*Padding*/
+.padding-small {
+  padding: 5px; }
+
+.padding-medium {
+  margin: 10px; }
+
+.padding-large {
+  padding: 20px; }
+
+.padding-top-small {
+  padding-top: 5px; }
+
+.padding-top-medium {
+  margin-top: 10px; }
+
+.padding-top-large {
+  padding-top: 20px; }
+
+.padding-top-xl {
+  padding-top: 25px; }
+
+.padding-left-small {
+  padding-left: 5px; }
+
+.padding-left-medium {
+  padding-left: 10px; }
+
+.padding-left-large {
+  padding-left: 20px; }
+
+.padding-left-xl {
+  margin-left: 25px; }
+
+.padding-right-small {
+  padding-right: 5px; }
+
+.padding-right-medium {
+  padding-right: 10px; }
+
+.padding-right-large {
+  padding-top: 20px; }
+
+.padding-right-xl {
+  padding-right: 25px; }
+
+.padding-bottom-small {
+  padding-bottom: 5px; }
+
+.padding-bottom-medium {
+  padding-bottom: 10px; }
+
+.padding-bottom-large {
+  padding-bottom: 20px; }
+
+.padding-bottom-xl {
+  padding-bottom: 25px; }
+
+/*Moving Tags*/
+.up-small {
+  position: relative;
+  bottom: 5px; }
+
+.up-medium {
+  position: relative;
+  bottom: 10px; }
+
+.up-large {
+  position: relative;
+  bottom: 20px; }
+
+.down-small {
+  position: relative;
+  top: 5px; }
+
+.down-medium {
+  position: relative;
+  top: 10px; }
+
+.down-large {
+  position: relative;
+  bottom: 20px; }
+
+.left-small {
+  position: relative;
+  right: 5px; }
+
+.left-medium {
+  position: relative;
+  right: 10px; }
+
+.left-large {
+  position: relative;
+  right: 20px; }
+
+.right-small {
+  position: relative;
+  left: 5px; }
+
+.right-medium {
+  position: relative;
+  left: 10px; }
+
+.right-large {
+  position: relative;
+  left: 20px; }
+
+/*Aligning*/
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
+/*Text Decoration*/
+.underline {
+  text-decoration: underline; }
+
+.overline {
+  text-decoration: overline; }
+
+.linethrough {
+  text-decoration: line-through; }
+
+/*Border Type*/
+.border-top {
+  border-top: solid;
+  border-top-width: 1px;
+  border-top-color: #fff; }
+
+.border-top-inverse {
+  border-top: solid;
+  border-top-width: 1px;
+  border-top-color: #000; }
+
+.border-bottom {
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #fff; }
+
+.border-bottom-inverse {
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #000; }
+
+.border-left {
+  border-left: solid;
+  border-left-width: 1px;
+  border-left-color: #fff; }
+
+.border-left-inverse {
+  border-left: solid;
+  border-left-width: 1px;
+  border-left-color: #000; }
+
+.border-right {
+  border-right: solid;
+  border-right-width: 1px;
+  border-right-color: #fff; }
+
+.border-right-inverse {
+  border-right: solid;
+  border-right-width: 1px;
+  border-right-color: #000; }
+
+.border {
+  border: solid;
+  border-width: 1px;
+  border-color: #fff; }
+
+.border-inverse {
+  border: solid;
+  border-width: 1px;
+  border-color: #000; }
+
+/* Removing Certain Style */
+a {
+  text-decoration: none; }
+
+/* Get Sizes for Header and for all other pieces of ECKit */
+/* Example CSS */
+header {
+  min-height: 60px; }
+
+ul {
+  list-style-type: none; }
+
+li {
+  display: inline; }
+
+article, aside {
+  min-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px; }
+
+footer {
+  min-height: 25px;
+  text-align: right;
+  padding-top: 3px;
+  padding-right: 5px;
+  padding-bottom: 5px; }
+
+/*# sourceMappingURL=style.css.map */
