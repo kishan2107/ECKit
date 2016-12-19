@@ -379,9 +379,13 @@ table {
   letter-spacing: 2px; }
 
 /*Special and Optionals*/
-/*@import url(addons*/
+/*@import 'addons' Need*/
 /*SPECIALTY SETTINGS */
-/*  ECKit's Special Settings for changing anything */
+/*  ECKit's Special Settings for changing anything
+    Note that this is also a big waste of space.
+    You can Just delete the @import 'settings' before compiling the sass to use less space.
+
+*/
 @font-face {
   font-family: Helvetica Neue;
   src: url(../../fonts/HelveticaNeue.tff); }
