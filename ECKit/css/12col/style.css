@@ -655,10 +655,21 @@ header {
   min-height: 60px; }
 
 ul {
-  list-style-type: none; }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
 
 li {
-  display: inline; }
+  float: left; }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+    li a:hover {
+      background-color: #f1f1f1; }
 
 article, aside {
   min-height: 50px;
