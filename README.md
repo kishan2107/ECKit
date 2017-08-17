@@ -2,10 +2,13 @@
 ECKit is a CSS framework developed by ECWS, a web development company.
 
 ##Download
-You can download it at [SourceForge] (http://eckit-framework.sourceforge.net), BitBucket, or GitHub.
+You can download it at [SourceForge](http://eckit-framework.sourceforge.net), BitBucket, or GitHub.
 
 ##Installation
 To use ECKit, all you have to do is link it to your HTML5 Pages. 
+
+##Evernote Notebook
+We have an official Notebook on Evernote available [here](https://www.evernote.com/pub/ecwebservices/eckit#st=p&n=03f0aa9e-945c-49fb-99fd-543d2a5c9164)
 
 ##Notes About ECKit
 Here's some VERY notable things about ECKit:
@@ -16,7 +19,7 @@ Here's some VERY notable things about ECKit:
 4. ECKit uses other projects of ECWS that are still not on GitHub or SourceForge, but expect them soon.
 
 ##Other
-If you have any questions head to [GitHub] (https://github.com/ElijahCruzWebServices/ECKit) and head to our issues.
+If you have any questions head to [GitHub](https://github.com/ElijahCruzWebServices/ECKit) and head to our issues.
 
 ##Contributing
 If you would like to contribute, send us a pull request on GitHub only. Bitbucket and Sourceforge are NOT accepted as we do not look at those currently.
