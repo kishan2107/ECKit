@@ -38,8 +38,8 @@
 
 /* Example CSS */
 
-header{
-	min-height: 60px;
+header {
+  min-height: 60px;
 }
 
 ul {
@@ -47,10 +47,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: lightgray;
 }
 
 li {
   float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
   a {
     display: block;
     color: white;
@@ -58,23 +64,37 @@ li {
     padding: 14px 16px;
     text-decoration: none;
     &:hover {
-      background-color: #f1f1f1;
+      background-color: f1f1f1;
     }
   }
 }
 
-
-article, aside{
-	min-height: 50px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left:5px;
+article, aside {
+  min-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
 }
 
-footer{
-	min-height: 25px;
-	text-align: right;
-	padding-top:3px;
-	padding-right: 5px;
-	padding-bottom:5px;
+footer {
+  min-height: 25px;
+  text-align: right;
+  padding-top: 3px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  height: 50px;
+  background: #eee;
+}
+
+#title {
+  font-style: italic;
+  color: gray;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  color: black;
+  font-size: 1.5em;
 }
