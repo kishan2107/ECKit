@@ -1,16 +1,22 @@
-# ECKit
+# ECKit 
+[![Code Triagers Badge](https://www.codetriage.com/ecwebservices/eckit/badges/users.svg)](https://www.codetriage.com/ecwebservices/eckit)
+[![GitHub forks](https://img.shields.io/github/forks/ECWebServices/ECKit.svg)](https://github.com/ECWebServices/ECKit/network)
+[![GitHub stars](https://img.shields.io/github/stars/ECWebServices/ECKit.svg)](https://github.com/ECWebServices/ECKit/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/ECWebServices/ECKit.svg)](https://github.com/ECWebServices/ECKit/issues)
+<br />
 ECKit is a CSS framework developed by ECWS, a web development company.
 
-##Download
+
+## Download
 You can download it at [SourceForge](http://eckit-framework.sourceforge.net), BitBucket, or GitHub.
 
-##Installation
+## Installation
 To use ECKit, all you have to do is link it to your HTML5 Pages. 
 
-##Evernote Notebook
+## Evernote Notebook
 We have an official Notebook on Evernote available [here](https://www.evernote.com/pub/ecwebservices/eckit#st=p&n=03f0aa9e-945c-49fb-99fd-543d2a5c9164)
 
-##Notes About ECKit
+## Notes About ECKit
 Here's some VERY notable things about ECKit:
 
 1. ECKit No Longer FULLY Supports IE 6/7/8 As of 2.0, but most features will still work.
@@ -18,16 +24,16 @@ Here's some VERY notable things about ECKit:
 3. ECKit as of date has had no found bug to date.
 4. ECKit uses other projects of ECWS that are still not on GitHub or SourceForge, but expect them soon.
 
-##Other
+## Other
 If you have any questions head to [GitHub](https://github.com/ElijahCruzWebServices/ECKit) and head to our issues.
 
-##Contributing
+## Contributing
 If you would like to contribute, send us a pull request on GitHub only. Bitbucket and Sourceforge are NOT accepted as we do not look at those currently.
 We do not look at these as we do all our collaborating on GitHub.
 
 Also we are going to turn the docs into a wiki if you would like to help create that as well.
 
-##Note
+## Note
 The ECKit team is currently using LESS for building ECKit. We will be upgrading to Sass instead.
 
 When is comes to development, we currently work using the 12col then go to the 16 and 24.
