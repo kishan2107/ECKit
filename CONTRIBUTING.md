@@ -15,3 +15,7 @@ Please note we have a code of conduct, please follow it in all your interactions
    Pull Request would represent.
 4. You may merge the Pull Request in once you have the sign-off of [@elijahcruz12](https://github.com/elijahcruz12), or if you 
    do not have permission to do that, you may request the second reviewer to merge it for you.
+
+## Contributers (all usernames are GitHub)
+Elijahcruz12
+shivamsaboo17
