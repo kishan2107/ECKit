@@ -1,0 +1,49 @@
+/*
+Error: Invalid CSS after "@import ": expected "{", was "url("settings.l..."
+        on line 34 of /home/ubuntu/workspace/ECKit/css/16col/style.scss
+
+29: 
+30: /*Special and Optionals*\/
+31: /*@import url(addons.less*\/)
+32: 
+33: /*SPECIALTY SETTINGS *\/
+34: @import url("settings.less");
+35: 
+36: /* Example CSS *\/
+37: 
+38: header{
+39: 	min-height: 60px;
+
+Backtrace:
+/home/ubuntu/workspace/ECKit/css/16col/style.scss:34
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1161:in `expected'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1097:in `expected'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1092:in `tok!'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:637:in `block'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:631:in `ruleset'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:656:in `block_child'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:649:in `block_contents'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:117:in `stylesheet'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:42:in `parse'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:403:in `_to_tree'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin.rb:82:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:361:in `watch_or_update'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.19/bin/scss:13:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.2.1/bin/scss:23:in `load'
+/usr/local/rvm/gems/ruby-2.2.1/bin/scss:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import \": expected \"{\", was \"url(\"settings.l...\"\A         on line 34 of /home/ubuntu/workspace/ECKit/css/16col/style.scss\A \A 29: \A 30: /*Special and Optionals*/\A 31: /*@import url(addons.less*/)\A 32: \A 33: /*SPECIALTY SETTINGS */\A 34: @import url(\"settings.less\");\A 35: \A 36: /* Example CSS */\A 37: \A 38: header{\A 39: 	min-height: 60px;"; }

@@ -33,6 +33,19 @@ We do not look at these as we do all our collaborating on GitHub.
 
 Also we are going to turn the docs into a wiki if you would like to help create that as well.
 
+## Third Party
+
+We use third party projects in ECKit.
+
+The current list is below:
+
+#### 1. Google's Material Design Icons
+##### How to use:
+Instructions are available [Here](http://google.github.io/material-design-icons/#icon-font-for-the-web).
+
+An Icon list is also [Here](https://material.io/icons/).
+
+
 ## Note
 The ECKit team is currently using LESS for building ECKit. We will be upgrading to Sass instead.
 
