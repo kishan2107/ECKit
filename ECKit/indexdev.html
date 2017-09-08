@@ -1,55 +1,37 @@
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
-        <title>EcKit</title>
+        <title>Template Page - ECKit</title>
+        <link rel="stylesheet" href="css/12col/style.css">
+        <link rel="stylesheet" href="css/12col/3rdparty/material-design-icons/material-icons.css">
     </head>
     <body>
-        <div id="main">
-            
-            <div id="header">
-                <div id="title">
-                    <div id="sidebar_button">
-                        <img id="sidebar" src="reorder-horizontal%20(1).png">
-                    </div>
-                    <div id="heading">
-                        <h2 id="siteheading">Site Heading</h2>
-                    </div>
-                </div>
-                <div id="navbar">
-                    <div id="navlinks"><p>Home</p></div>
-                    <div id="navlinks"><p>About</p></div>
-                    <div id="navlinks"><p>Contact</p></div>
-                    <div id="navlinks"><p>News</p></div>
-                </div>
-            </div>
-            <div id="content">
-                <div id="overlay">
-                    <h1 id="txt">Hello World! Type in some details about the site here!</h1>
-                </div>
-            </div>
-            <div id="description">
-                <div id="des1">
-                    <img id="desimg" src="apple-mobileme%20(1).png">
-                    <div id="des"><h2>Enter details about feature number one!</h2></div>
-                </div>
-                <div id="des2">
-                    <img id="desimg" src="apple-safari.png">
-                    <div id="des"><h2>Enter details about feature number two!</h2></div>
-                </div>
-                <div id="des3">
-                    <img id="desimg" src="application.png">
-                    <div id="des"><h2>Enter details about feature number three!</h2></div>
-                </div>
-                <div id="des4">
-                    <img id="desimg" src="forum.png">
-                    <div id="des"><h2>Enter details about feature number four!</h2></div>
-                </div>
-            </div>
-            <div id="footer">
-                
-            </div>
+        
+        <!-- Navigation Slider -->
+        <div id="mySidenav" class="sidenav black text-white">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="material-icons">close</i></a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
         </div>
-        <div id="sideouter"></div>
+        
+        <div class="row navbar">
+		    <div class="col span_12 black text-white">
+		        <br>
+		        <span style="white-space: nowrap;"><a href="#" ><i class="material-icons md-25 navicon margin-left-small margin-right-medium" onclick="openNav()">menu</i></a>
+		        <p class="brand margin-left-small">Lorem Ipsum</p></span>
+		        <br>
+		    </div>
+	    </div>
+	    
+	    <div class="row">
+	        <div class="col span_6 banner grey padding-large">
+	            <h2 class="padding-large text-white">Welcome to the ECKit Example Page</h2>
+	        </div>
+	        <div class="col span_6 banner"></div>
+	    </div>
+	    
+	    
+	    <script type="text/javascript" src="scripts/navslider.js"></script>
     </body>
-    <script src="main.js"></script>
 </html>
