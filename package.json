@@ -1,0 +1,25 @@
+{
+  "name": "eckit",
+  "version": "3.0.0",
+  "description": "Open Source CSS Framework by ECWebServices",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ECWebServices/ECKit.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "ECWebServices <ecwebservices@gmail.com> (https://ecwebservices.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ECWebServices/ECKit/issues"
+  },
+  "homepage": "https://github.com/ECWebServices/ECKit#readme"
+}
