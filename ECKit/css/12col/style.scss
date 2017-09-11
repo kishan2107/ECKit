@@ -101,3 +101,21 @@
 .banner{
    min-height: 45vh;
 }
+
+//Helpers
+.clear-right{
+  clear: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.content-bars{
+  height: 50vh;
+  text-align: center;
+}
