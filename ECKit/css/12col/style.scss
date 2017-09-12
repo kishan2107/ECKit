@@ -118,4 +118,12 @@
 .content-bars{
   height: 50vh;
   text-align: center;
+  line-height: 5em;
+  h3{
+    text-align: center;
+  }
+  .material-icons{
+    line-height: 2em;
+    font-size: 48px;
+  }
 }

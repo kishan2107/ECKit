@@ -740,6 +740,12 @@ a {
 
 .content-bars {
   height: 50vh;
-  text-align: center; }
+  text-align: center;
+  line-height: 5em; }
+  .content-bars h3 {
+    text-align: center; }
+  .content-bars .material-icons {
+    line-height: 2em;
+    font-size: 48px; }
 
 /*# sourceMappingURL=style.css.map */
