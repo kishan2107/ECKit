@@ -36,15 +36,23 @@
 .navbar{
   font-weight: 500;
   font-size: 	25px;
-}
+  line-height: 1em;
 
-.navicon{
-  float:left;
+  .navicon{
+    float:left;
+    font-size: 25px;
+    line-height: 1em;
+
+    a{
+      color: inherit;
+      line-height: 1em;
+    }
+  }
 }
 
 .navicon, a{
   color: inherit;
-} 
+}
 
 .sidenav {
     height: 100%;

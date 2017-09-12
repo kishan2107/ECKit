@@ -402,12 +402,6 @@ h6 {
   -moz-text-shadow: 1px 1px 1px #444;
   letter-spacing: 2px; }
 
-/*Customize ECKit using by commenting out certain pieces in _customizec.scss */
-/*
-@import 'customizec';
-*/
-/*Special and Optionals*/
-/*@import 'addons' Need*/
 /*SPECIALTY SETTINGS */
 /*  ECKit's Special Settings for changing anything
     Note that this is also a big waste of space.
@@ -681,10 +675,15 @@ a {
 /* Example CSS */
 .navbar {
   font-weight: 500;
-  font-size: 25px; }
-
-.navicon {
-  float: left; }
+  font-size: 25px;
+  line-height: 1em; }
+  .navbar .navicon {
+    float: left;
+    font-size: 25px;
+    line-height: 1em; }
+    .navbar .navicon a {
+      color: inherit;
+      line-height: 1em; }
 
 .navicon, a {
   color: inherit; }
