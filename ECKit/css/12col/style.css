@@ -726,7 +726,11 @@ a {
   float: left; }
 
 .banner {
-  min-height: 45vh; }
+  min-height: 45vh;
+  background-image: url("/ECKit/images/banner-bg.jpg");
+  background-size: cover; }
+  .banner .left-banner {
+    background-color: rgba(0, 0, 0, 0.7); }
 
 .clear-right {
   clear: right; }
@@ -746,5 +750,8 @@ a {
   .content-bars .material-icons {
     line-height: 2em;
     font-size: 48px; }
+
+.footer .footer-col {
+  min-height: 10vh; }
 
 /*# sourceMappingURL=style.css.map */

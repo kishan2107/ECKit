@@ -99,6 +99,11 @@
 
 .banner{
    min-height: 45vh;
+   .left-banner{
+     background-color: rgba(0,0,0,0.7);
+   }
+   background-image: url("/ECKit/images/banner-bg.jpg");
+   background-size:cover;
 }
 
 //Helpers
@@ -124,5 +129,12 @@
   .material-icons{
     line-height: 2em;
     font-size: 48px;
+  }
+}
+
+//Footer
+.footer{
+  .footer-col{
+    min-height: 10vh;
   }
 }
