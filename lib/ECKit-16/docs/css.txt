@@ -1,4 +1,0 @@
-Your CSS
--
-
-You can implement your own CSS easily. As of current, just head to the bottom of style.css and change the example css at the bottom. Then there you have it. If you want to chang how your site looks even further, ECKit can work onlongside many other frameworks (especially JavaScript ones) such as jquery or meteor.

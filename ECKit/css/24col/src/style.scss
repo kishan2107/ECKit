@@ -1,0 +1,140 @@
+/* ECKit Version 2.1.0
+*  @name:ECKit
+*  @author:ECWebServices
+*  @version:2.1.0
+*/
+/* Reset.css by ECWebServices.
+*  Use is under MIT License.
+*/
+
+/*  Hello, ECKit is a framework that mainly specializes
+*   in styling as well as a major grid system. It is very
+*   easy to use, but is made for people who know how to use
+*   scss and have experience.
+*/
+
+/*  Your ECKit version is the 12 column version.  */
+
+@import 'variables';
+
+
+/* RESET */
+@import 'reset';
+
+/*12 COLUMN ECKit */
+@import 'eckit24col';
+
+/*COLORS */
+@import 'colors';
+
+/*SPECIALTY SETTINGS */
+@import 'settings';
+
+/* Example CSS */
+
+//Navagation and top Navbar
+.navbar{
+  font-weight: 500;
+  font-size: 	25px;
+  line-height: 1em;
+
+  .navicon{
+    float:left;
+    font-size: 25px;
+    line-height: 1em;
+
+    a{
+      color: inherit;
+      line-height: 1em;
+    }
+  }
+}
+
+.navicon, a{
+  color: inherit;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #818181;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.brand{
+  float:left;
+}
+
+// Banner
+
+.banner{
+   min-height: 45vh;
+   .left-banner{
+     background-color: rgba(0,0,0,0.7);
+   }
+   background-image: url("/ECKit/images/banner-bg.jpg");
+   background-size:cover;
+}
+
+//Helpers
+.clear-right{
+  clear: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.content-bars{
+  height: 50vh;
+  text-align: center;
+  line-height: 5em;
+  h3{
+    text-align: center;
+  }
+  .material-icons{
+    line-height: 2em;
+    font-size: 48px;
+  }
+}
+
+//Footer
+.footer{
+  .footer-col{
+    min-height: 10vh;
+  }
+}
