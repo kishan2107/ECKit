@@ -50,6 +50,6 @@ An Icon list is also [Here](https://material.io/icons/).
 
 
 ## Note
-The ECKit team is currently using LESS for building ECKit. We will be upgrading to Sass instead.
+The ECKit team is currently using SCSS for building ECKit.
 
 When is comes to development, we currently work using the 12col then go to the 16 and 24.
