@@ -1,4 +1,4 @@
-# ECKit 
+# ECKit [![GitHub version](https://badge.fury.io/gh/ECWebServices%2FECKit.svg)](https://badge.fury.io/gh/ECWebServices%2FECKit)
 [![Code Triagers Badge](https://www.codetriage.com/ecwebservices/eckit/badges/users.svg)](https://www.codetriage.com/ecwebservices/eckit)
 [![GitHub forks](https://img.shields.io/github/forks/ECWebServices/ECKit.svg)](https://github.com/ECWebServices/ECKit/network)
 [![GitHub stars](https://img.shields.io/github/stars/ECWebServices/ECKit.svg)](https://github.com/ECWebServices/ECKit/stargazers)
