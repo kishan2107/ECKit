@@ -43,7 +43,7 @@ We use third party projects in ECKit.
 The current list is below:
 
 #### 1. Google's Material Design Icons
-##### How to use:
+How to use:
 Instructions are available [Here](http://google.github.io/material-design-icons/#icon-font-for-the-web).
 
 An Icon list is also [Here](https://material.io/icons/).
